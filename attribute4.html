@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tanda Pipe | selector</title>
+    <style>
+        p[title|="belajar"] {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p title="belajar pemograman">Ini tidak dipilih</p>
+    <p title="belajar">Ini dipilih</p>
+    <p title="belajar-pemograman">Ini dipilih</p>
+    <p title="belajar&pemograman">Ini tidak dipilih</p>
+</body>
+</html>

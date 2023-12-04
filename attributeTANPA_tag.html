@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector tanpa Tag</title>
+    <style>
+        a[target="_blank"]{
+            color: red;
+        }
+
+        [title*="belajar"] {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p title="belajar">Ini dipilih</p>
+    <p title="belajarpemograman">Ini tidak dipilih</p>
+    <p title="belajar-pemograman">Ini dipilih</p>
+    <p title="pemograman belajar">Ini dipilih</p>
+    <span title="pemograman belajar">Ini contoh span</span>
+</body>
+</html>
