@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+        div{
+            padding: 0px;
+            margin: 0px;
+            background-color: pink;
+        }
+        p {
+            padding: 0px;
+            margin: 0px;
+            text-align: justify;
+        }
+        .article1 {
+            height: 200px;
+            background-color: aqua;
+            width: 200px;
+            padding: 10px 20px 10px 20px;
+            margin: 10px 20px 10px 20px;
+            
+            overflow: auto;
+        }
+
+        .article2 {
+            height: 150px;
+            width: 300px;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="article1">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus enim magni consequatur expedita recusandae asperiores perferendis sapiente nisi iste explicabo obcaecati rerum, vitae quod nobis vel reprehenderit. Eaque, totam provident.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam magni ex asperiores veritatis corrupti repellendus, ipsam exercitationem eligendi obcaecati ipsum deleniti inventore dolorem unde veniam ad, enim nemo! Mollitia, ipsam.</p>
+    </div>
+    <div class="article2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut nihil placeat sequi cumque veritatis maiores vel explicabo deleniti dolorem est saepe ab, eius error perferendis iusto doloremque sint voluptatem iure!</p>
+    </div>
+</body>
+</html>
